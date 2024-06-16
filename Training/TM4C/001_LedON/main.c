@@ -13,7 +13,7 @@ int main(void)
     {
         GPIO_PORTG_DATA_R &= 0x00;
         delay(1000000);
-        GPIO_PORTG_DATA_R |= 0xFF;
+        GPIO_PORTG_DATA_R |= 0x30;
         delay(1000000);
     }
 	return 0;
